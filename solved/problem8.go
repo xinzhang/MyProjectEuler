@@ -49,7 +49,7 @@ func main() {
 			for j := 0; j < step; j++ {
 				listResult[j], _ = strconv.Atoi(string(r[i+j]))
 			}
-			fmt.Println(listResult)
+			fmt.Println(listResult, maxResult)
 		}
 	}
 
